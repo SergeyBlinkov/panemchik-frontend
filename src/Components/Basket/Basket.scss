@@ -1,0 +1,79 @@
+@import '../../app/ImportStyle';
+
+.Basket {
+  width: 1280px;
+  h2 {
+    display: block;
+    margin: 15px 0;
+    padding-left: 25px;
+    font-family: $fontBig;
+  }
+}
+.Basket-List {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  grid-gap: 5px;
+  height: auto;
+}
+.Basket-Item {
+  border-radius: 5px;
+  width: 100%;
+  display: grid;
+  grid-gap: 5px;
+  justify-items: center;
+  height: 400px;
+  grid-template-columns: repeat(2,1fr);
+  .Basket-Item_Text {
+    position: relative;
+    font-family: $fontSm;
+    h3 {
+      margin-bottom: 65px;
+      font-family: $fontBig;
+    }
+    .Basket-Item_Text__price {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 15px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+      font-size: 19px;
+      font-family: $fontSm;
+      font-weight: 700;
+    }
+  }
+  img {
+    width: 400px;
+    height: 400px;
+  }
+}
+.ModalForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  width: 800px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 500px;
+  padding: 50px;
+  .ModalForm_item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .ModalForm_ButtonBlock {
+    margin: 15px;
+    font-family: $fontSm;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+}

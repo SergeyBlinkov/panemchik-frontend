@@ -1,0 +1,13 @@
+.Header {
+  width: 1280px;
+  display: flex;
+  margin: 20px auto;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  .Header_basket-profile {
+    margin-right: 50px;
+    display: flex;
+    gap: 20px;
+  }
+}

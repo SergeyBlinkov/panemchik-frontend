@@ -1,0 +1,10 @@
+.UiFormChanger {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  position: relative;
+}
+
+/*# sourceMappingURL=login-features.css.map */
