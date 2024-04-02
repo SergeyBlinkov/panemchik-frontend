@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lobster&family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap");
+.Header {
+  background: rgb(246, 246, 246);
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.Header .Header_basket-profile {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mainItems {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.App_allItems {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.footer {
+  width: 100%;
+  margin: 30px auto;
+  max-width: 1280px;
+  height: 100px;
+  background: rgb(246, 246, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=App.css.map */

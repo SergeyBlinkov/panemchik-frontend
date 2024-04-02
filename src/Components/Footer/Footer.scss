@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: #F8F9FA;
+  height: 230px;
+  &_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap :32px;
+    color: #92989F;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-family: 'Josta', sans-serif;
+  }
+  &_logos{
+    display: flex;
+    gap :32px;
+    justify-content: center;
+    align-items: center;
+    &__item {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius:50%;
+      background: #E4E8EC;
+    }
+  }
+  &_text {
+    color: #92989F;
+  }
+}

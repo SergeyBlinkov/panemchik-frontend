@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lobster&family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap");
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrapper_index {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+.wrapper_index__active {
+  background: yellow;
+}
+.wrapper_index__item {
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.NewsBlock {
+  display: grid;
+  width: auto;
+  grid-gap: 100px;
+  height: 95%;
+  grid-template-columns: 100% 100% 100%;
+  transition: translate 1s ease-in-out;
+}
+
+.Slides {
+  width: 100%;
+  display: grid;
+  height: 95%;
+  padding-bottom: 15px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.Slides .Slides_text {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  font-size: 17px;
+  flex-direction: column;
+  margin-top: 100px;
+  align-self: flex-start;
+  gap: 15px;
+  padding: 0 30px;
+}
+.Slides .Slides_text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+.Slides .Slides_img {
+  width: 500px;
+  height: 400px;
+}
+.Slides .Slides_img img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=NewsBlock.css.map */

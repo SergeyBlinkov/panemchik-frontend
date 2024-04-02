@@ -1,0 +1,56 @@
+.loader {
+  width: 54px;
+  border-radius: 50%;
+  height: 54px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    margin: 8px;
+    border: 4px solid;
+    border-radius: 50%;
+    animation: loaderAnim 1.5s ease-in-out infinite;
+    border-color: #5ec6d3 transparent transparent transparent ;
+    &:nth-child(1) {
+      animation-delay: -0.16s;
+    }
+    &:nth-child(2) {
+      animation-delay: -0.25s;
+    }
+    &:nth-child(3) {
+        animation-delay: -0.40s;
+      }
+  }
+  @keyframes loaderAnim {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  }
+
+
+
+@keyframes spinAround {
+  0% {
+
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+@keyframes lineGrow {
+  0% {
+
+  }
+  100% {
+
+  }
+}

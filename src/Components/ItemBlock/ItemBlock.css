@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lobster&family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap");
+.ItemBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  justify-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.Item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  color: black;
+  width: 100%;
+  height: 550px;
+  cursor: pointer;
+}
+.Item h4 {
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  top: 0;
+  background: #fff;
+  font-family: "Playfair Display", serif;
+  z-index: 3;
+}
+.Item:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.2s linear;
+}
+.Item:hover:before {
+  background: rgba(0, 0, 0, 0.2);
+}
+.Item:hover .Item_TextBlock {
+  transition: transform 500ms ease-in-out;
+  top: 0;
+  transform: scale(1);
+  background: rgba(0, 0, 0, 0.2);
+}
+.Item img {
+  z-index: 2 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Item .Item_TextBlock {
+  z-index: 3;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+  transform: scale(0);
+}
+.Item .Item_TextBlock .Item_TextBlock__item {
+  width: 80%;
+  height: 80%;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 15px;
+  text-align: center;
+}
+.Item .Item_TextBlock .Item_TextBlock__item div {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: #fff;
+  color: black;
+}
+.Item .Item_TextBlock .Item_TextBlock__item div p {
+  width: 280px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 25px !important;
+}
+.Item .Item_TextBlock .Item_TextBlock__item p {
+  position: relative;
+  padding: 10px;
+  margin-top: 0 !important;
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  width: 100% !important;
+}
+
+/*# sourceMappingURL=ItemBlock.css.map */

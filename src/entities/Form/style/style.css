@@ -1,0 +1,27 @@
+.formComponent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-self: center;
+  gap: 5px;
+  align-self: center;
+  width: 300px;
+}
+.formComponent h2 {
+  margin-top: 0;
+}
+.formComponent .formComponent_inputBlock {
+  display: flex;
+  gap: 15px;
+  margin: 35px 0 15px;
+}
+.formComponent .formComponent_buttonBlock {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
