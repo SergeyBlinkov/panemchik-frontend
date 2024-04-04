@@ -1,10 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lobster&family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap");
 .ItemBlock {
+<<<<<<< HEAD
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   padding: 5px;
   justify-items: center;
+=======
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  justify-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+>>>>>>> master
   align-items: center;
 }
 
@@ -30,11 +40,29 @@
   font-family: "Playfair Display", serif;
   z-index: 3;
 }
+<<<<<<< HEAD
+=======
+.Item:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.2s linear;
+}
+.Item:hover:before {
+  background: rgba(0, 0, 0, 0.2);
+}
+>>>>>>> master
 .Item:hover .Item_TextBlock {
   transition: transform 500ms ease-in-out;
   top: 0;
   transform: scale(1);
+<<<<<<< HEAD
   background: rgba(251, 83, 83, 0.5);
+=======
+  background: rgba(0, 0, 0, 0.2);
+>>>>>>> master
 }
 .Item img {
   z-index: 2 !important;

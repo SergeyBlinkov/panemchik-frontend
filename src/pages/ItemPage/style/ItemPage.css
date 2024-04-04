@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lobster&family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap");
+@keyframes showUp {
+  100% {
+    opacity: 1;
+  }
+}
+.ItemPage-body {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1280px;
+  margin: 35px auto;
+}
+.ItemPage-body_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.ItemPage-body_info h2 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+}
+.ItemPage-body_info p, .ItemPage-body_info li {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+}
+
+.showElement {
+  animation: showUp 1s ease-in-out 1s forwards;
+}
+
+/*# sourceMappingURL=ItemPage.css.map */

@@ -1,5 +1,9 @@
 import axios, { AxiosRequestConfig } from 'axios';
+<<<<<<< HEAD
 import { AuthResponse } from '../../types/AuthResponseTypes';
+=======
+import { AuthResponse } from '../types/AuthResponseTypes';
+>>>>>>> master
 
 export const API_URL = 'http://localhost:5000/api';
 

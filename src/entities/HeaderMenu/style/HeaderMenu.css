@@ -1,7 +1,11 @@
 .Header {
   width: 1280px;
   display: flex;
+<<<<<<< HEAD
   margin: 20px auto;
+=======
+  margin: 0 auto 20px;
+>>>>>>> master
   position: relative;
   justify-content: space-between;
   align-items: center;

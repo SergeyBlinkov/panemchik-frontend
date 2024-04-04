@@ -11,12 +11,20 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
+<<<<<<< HEAD
     "@types/node": "^16.18.2",
+=======
+>>>>>>> master
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@types/react-redux": "^7.1.24",
     "axios": "^1.2.0",
     "eslint": "8.22.0",
+<<<<<<< HEAD
+=======
+    "module-alias": "^2.2.3",
+    "path": "^0.12.7",
+>>>>>>> master
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
@@ -29,8 +37,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "react-scripts start",
     "build": "react-scripts build",
+=======
+    "start": "craco start",
+    "build": "craco build",
+>>>>>>> master
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -53,6 +66,12 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@types/node": "^20.8.10",
+>>>>>>> master
     "@types/styled-components": "^5.1.26",
     "prettier": "^2.8.4"
   }

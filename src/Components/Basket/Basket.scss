@@ -1,10 +1,19 @@
 @import '../../app/ImportStyle';
 
 .Basket {
+<<<<<<< HEAD
   width: 1280px;
   h2 {
     display: block;
     margin: 15px 0;
+=======
+  max-width: 1280px;
+  margin: 0 auto;
+  h2 {
+    display: block;
+    margin: 15px 0;
+    font-size: $fontSizeHead;
+>>>>>>> master
     padding-left: 25px;
     font-family: $fontBig;
   }
@@ -16,6 +25,22 @@
   grid-gap: 5px;
   height: auto;
 }
+<<<<<<< HEAD
+=======
+.Basket-SendForm {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: $fontSizeMed;
+  padding: 25px;
+  margin: 10px;
+  button {
+    font-family: $fontSm;
+  }
+}
+>>>>>>> master
 .Basket-Item {
   border-radius: 5px;
   width: 100%;
@@ -34,6 +59,10 @@
     .Basket-Item_Text__price {
       position: absolute;
       bottom: 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
       left: 0;
       padding: 15px;
       display: flex;
@@ -51,10 +80,20 @@
   }
 }
 .ModalForm {
+<<<<<<< HEAD
+=======
+  h2 {
+    font-size: $fontSizeMed;
+  }
+>>>>>>> master
   position: absolute;
   top: 50%;
   left: 50%;
   display: grid;
+<<<<<<< HEAD
+=======
+  grid-gap: 15px;
+>>>>>>> master
   transform: translate(-50%,-50%);
   background: #fff;
   width: 800px;
@@ -67,6 +106,10 @@
   .ModalForm_item {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    gap: 5px;
+>>>>>>> master
     width: 100%;
   }
   .ModalForm_ButtonBlock {
@@ -76,4 +119,20 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
   }
+<<<<<<< HEAD
+=======
+}
+.SuccessMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  grid-gap: 65px;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  width: 800px;
+  padding: 45px;
+  text-align: center;
+  font-size: $fontSizeMed;
+>>>>>>> master
 }

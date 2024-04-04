@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lobster&family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap");
 .Basket {
+<<<<<<< HEAD
   width: 1280px;
+=======
+  max-width: 1280px;
+  margin: 0 auto;
+>>>>>>> master
 }
 .Basket h2 {
   display: block;
   margin: 15px 0;
+<<<<<<< HEAD
+=======
+  font-size: 28px;
+>>>>>>> master
   padding-left: 25px;
   font-family: "Playfair Display", serif;
 }
@@ -17,6 +26,23 @@
   height: auto;
 }
 
+<<<<<<< HEAD
+=======
+.Basket-SendForm {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+  padding: 25px;
+  margin: 10px;
+}
+.Basket-SendForm button {
+  font-family: "Raleway", sans-serif;
+}
+
+>>>>>>> master
 .Basket-Item {
   border-radius: 5px;
   width: 100%;
@@ -57,6 +83,10 @@
   top: 50%;
   left: 50%;
   display: grid;
+<<<<<<< HEAD
+=======
+  grid-gap: 15px;
+>>>>>>> master
   transform: translate(-50%, -50%);
   background: #fff;
   width: 800px;
@@ -67,9 +97,19 @@
   grid-template-columns: 500px;
   padding: 50px;
 }
+<<<<<<< HEAD
 .ModalForm .ModalForm_item {
   display: flex;
   flex-direction: column;
+=======
+.ModalForm h2 {
+  font-size: 22px;
+}
+.ModalForm .ModalForm_item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+>>>>>>> master
   width: 100%;
 }
 .ModalForm .ModalForm_ButtonBlock {
@@ -80,4 +120,21 @@
   grid-gap: 15px;
 }
 
+<<<<<<< HEAD
+=======
+.SuccessMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  grid-gap: 65px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 800px;
+  padding: 45px;
+  text-align: center;
+  font-size: 22px;
+}
+
+>>>>>>> master
 /*# sourceMappingURL=Basket.css.map */

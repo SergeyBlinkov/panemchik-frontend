@@ -1,0 +1,35 @@
+@import '../../../app/ImportStyle.scss';
+@keyframes showUp  {
+    100% {
+        opacity: 1;
+    }
+}
+.ItemPage {
+    &-body {
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        max-width: 1280px;
+        margin: 35px auto;
+        &_info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            h2{
+                font-size: $fontSizeHead;
+                font-family: $fontBig;
+            }
+            p,li {
+                font-size: $fontSizeMed;
+                font-family: $fontSm;
+            }
+        }
+    }
+}
+.showElement {
+    animation:  showUp 1s ease-in-out 1s forwards;
+}
+

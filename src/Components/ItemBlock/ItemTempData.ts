@@ -4,6 +4,10 @@ import ChCkCoffeePic from './src/Chckcoffee.jpg'
 import ChCkLimPic from './src/Chcklim.jpg'
 
 const ChCkClassic = {
+<<<<<<< HEAD
+=======
+    id : 1,
+>>>>>>> master
     title:'Чизкейк Классический',
     img:ChCkClassicPic,
     description: 'Отпечной чизкейк на песочном сабле. Классическая сырная начинка на основе сливочного сыра, сливок и яиц',
@@ -11,6 +15,10 @@ const ChCkClassic = {
 }
 
 const ChCkChocolate = {
+<<<<<<< HEAD
+=======
+    id : 2,
+>>>>>>> master
     title: 'Чизкейк Шоколадный',
     img: ChCkChocolatePic,
     description: 'Отпечной чизкейк на шоколадном песочном сабле. Сырная масса на основе сливочного сыра и бельгийского темного шоколада',
@@ -18,6 +26,10 @@ const ChCkChocolate = {
 }
 
 const ChCkCoffee = {
+<<<<<<< HEAD
+=======
+    id : 3,
+>>>>>>> master
     title:'Чизкейк Кофейный',
     img: ChCkCoffeePic,
     description:'Отпечной чизкейк на шоколадном песочном сабле. Сырная масса на основе сливочного сыра и эспрессо',
@@ -25,6 +37,10 @@ const ChCkCoffee = {
 }
 
 const ChCkLim  = {
+<<<<<<< HEAD
+=======
+    id : 4,
+>>>>>>> master
     title:'Чизкейк Малина-Лимон',
     img: ChCkLimPic,
     description: 'Отпечной чизкейк на песочном сабле. Классическая сырная начинка с лимонным вкусом в сочетании с малиновой прослойкой',

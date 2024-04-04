@@ -1,0 +1,14 @@
+@import "../../app/ImportStyle.scss";
+.MainPage {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  &-Items_h {
+    font-size: 35px;
+    text-align: center;
+    padding: 15px;
+    font-family: $fontBig;
+  }
+}
