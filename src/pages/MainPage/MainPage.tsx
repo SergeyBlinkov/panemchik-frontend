@@ -1,4 +1,14 @@
 import React from 'react';
+<<<<<<< HEAD
+import { BackgroundGradient2 } from '../../shared/style/SC/styled-components';
+import HeaderMenu from '../../entities/HeaderMenu/ui/HeaderMenu';
+
+const MainPage = () => {
+    return (
+        <BackgroundGradient2>
+            <HeaderMenu />
+        </BackgroundGradient2>
+=======
 import HeaderMenu from '#/entities/HeaderMenu/ui/HeaderMenu';
 import NewsBlock from "#/Components/NewsBlock/NewsBlock";
 import ItemBlock from "#/Components/ItemBlock/ItemBlock";
@@ -19,6 +29,7 @@ const MainPage = () => {
             <Footer />
     </div>
 
+>>>>>>> master
     );
 };
 

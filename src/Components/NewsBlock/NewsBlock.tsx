@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+import React from 'react';
+import './NewsBlock.css'
+import bread from './bread.jpg'
+
+function NewsBlock() {
+    return (
+        <div className={'NewsBlock'}>
+            <div className={'NewsBlock_text'}>
+                <h2>Веганский сочный зерновой хлеб "Вегипан"</h2>
+                <p>
+                    Вегипан - это единственный вид хлеба выполненный без муки и без использования дрожжей.
+                    Хлеб очень сытный, его требуется в 2-3 раза меньше чем обычного хлеба.
+                </p>
+                <p>
+                    В его составе семена подсолнечника, спельтовые хлопья, семя льна, пищевые волокна
+                    растительного происхождения, а также множество других полезных веществ, которые так ценят любители
+                    здорового питания.Этот хлеб подойдет для любого приема пищи, на него можно легко нанести
+                    масло или паштеты или просто насладиться вкеусом самого хлеба
+                </p>
+                <p>
+                *Итоговый внешний вид изделий может отличаться от представленных на изображении
+            </p>
+            </div>
+            <div className={'NewsBlock_img'}>
+=======
 import React, { useRef, useState } from 'react';
 import './NewsBlock.css'
 import bread from './bread.jpg'
@@ -32,10 +58,13 @@ function Slides ({ item }: { item : TSlidesArray }) {
                 </p>
             </div>
             <div className={'Slides_img'}>
+>>>>>>> master
                 <img src={bread} alt={'bread'}/>
             </div>
 
         </div>
+<<<<<<< HEAD
+=======
     )
 }
 
@@ -64,6 +93,7 @@ function NewsBlock() {
             </div>
         </div>
 
+>>>>>>> master
     );
 }
 

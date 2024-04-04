@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 import './Basket.css'
+<<<<<<< HEAD
+import Footer from "../Footer";
+=======
 import Footer from "../Footer/Footer";
+>>>>>>> master
 import Header from "../Header";
 import ChCkClassicPic from "../ItemBlock/src/Chckclassic.jpg";
 import {Button} from "@mui/material";
@@ -54,8 +58,13 @@ function Basket() {
                }
             </div>
             <form  onSubmit={handleSubmit} className={'Basket-SendForm'}>
+<<<<<<< HEAD
+                <h3>Итоговая сумма:<span>{`Итоговая сумма`}</span></h3>
+                <Button type={'submit'}>Сделать заказ</Button>
+=======
                 <h3>Итоговая сумма:<span>{`4800р`}</span></h3>
                 <Button type={'submit'} variant={'contained'} color={'success'} sx={{width:'20rem',fontSize:"15px"}}>Сделать заказ</Button>
+>>>>>>> master
             </form>
             <ModalForm open={openModal} onClose={handleClose}/>
             <Footer />

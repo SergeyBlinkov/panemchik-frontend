@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+{"version":3,"sourceRoot":"","sources":["../../app/ImportStyle.scss","NewsBlock.scss"],"names":[],"mappings":"AAAQ;ACER;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;EACA;EACA;EACA;;AACA;EACE,aDhBK;ECiBL;;AAGJ;EACE;EACA;;AACA;EACE;EACA","file":"NewsBlock.css"}
+=======
 {"version":3,"sourceRoot":"","sources":["../../app/ImportStyle.scss","NewsBlock.scss"],"names":[],"mappings":"AAAQ;ACER;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAKN;EACE;EACA;EACA;EACA;EACA;EACA;;;AAIF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE,aDjEK;ECkEL;;AAIJ;EACE;EACA;;AAEA;EACE;EACA","file":"NewsBlock.css"}
+>>>>>>> master

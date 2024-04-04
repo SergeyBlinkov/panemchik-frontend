@@ -29,6 +29,17 @@ export const BackgroundGradient = styled.div`
     background: linear-gradient(320deg, #cdc1ff, #bcf4de, #0ad3ff, #7371fc);
 `;
 export const BackgroundGradient2 = styled.div`
+<<<<<<< HEAD
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+=======
     width: 100%;
     top: 0;
     transition: max-height 2s linear;
@@ -39,6 +50,7 @@ export const BackgroundGradient2 = styled.div`
     margin: 0;
     padding: 0;
     min-height: 100%;
+>>>>>>> master
     background: linear-gradient(320deg, #cdc1ff, #bcf4de, #0ad3ff, #7371fc);
 `;
 

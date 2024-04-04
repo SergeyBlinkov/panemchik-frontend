@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lobster&family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap");
+<<<<<<< HEAD
+.NewsBlock {
+  max-width: 1280px;
+  display: grid;
+  margin: 30px auto;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
+  align-items: center;
+  justify-items: center;
+}
+.NewsBlock .NewsBlock_text {
+=======
 .wrapper {
   max-width: 1280px;
   width: 100%;
@@ -50,10 +62,25 @@
   justify-items: center;
 }
 .Slides .Slides_text {
+>>>>>>> master
   font-family: "Raleway", sans-serif;
   display: flex;
   font-size: 17px;
   flex-direction: column;
+<<<<<<< HEAD
+  gap: 15px;
+  padding: 0 30px;
+}
+.NewsBlock .NewsBlock_text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+.NewsBlock .NewsBlock_img {
+  width: 500px;
+  height: 400px;
+}
+.NewsBlock .NewsBlock_img img {
+=======
   margin-top: 100px;
   align-self: flex-start;
   gap: 15px;
@@ -68,6 +95,7 @@
   height: 400px;
 }
 .Slides .Slides_img img {
+>>>>>>> master
   width: 100%;
   height: 100%;
 }
